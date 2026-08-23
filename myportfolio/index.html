@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional portfolio of Abdulrahman Yusuf, Ph.D. researcher in Electrical and Computer Engineering specializing in Edge AI, biomedical sensors, ECG analytics, human-robot interaction, and agentic AI." />
+  <title>Abdulrahman Yusuf | Edge AI, Biomedical Sensors & HRI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Go to homepage">
+          <span class="brand-mark">AY</span>
+          <span class="brand-text">Abdulrahman Yusuf</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#impact">Impact</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact" class="nav-cta">Contact</a>
+        </div>
+      </nav>
+
+      <section class="hero section-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Ph.D. Researcher · Electrical & Computer Engineering</p>
+          <h1>Building reliable Edge AI systems for wearable health, robotics, and intelligent human–machine interaction.</h1>
+          <p class="hero-lede">
+            I design and validate embedded AI pipelines, biomedical sensing platforms, and adaptive human–robot interaction systems that move research from prototype to deployable impact.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Featured Work</a>
+            <a class="button secondary" href="assets/Abdulrahman_Yusuf_CV.pdf" download>Download CV</a>
+          </div>
+          <div class="hero-tags" aria-label="Specializations">
+            <span>Edge AI</span>
+            <span>ECG Analytics</span>
+            <span>Wearable Sensors</span>
+            <span>Human–Robot Interaction</span>
+            <span>Agentic AI</span>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Profile summary">
+          <div class="profile-image-wrap">
+            <img src="assets/my_picture.jpg" alt="Portrait of Abdulrahman Yusuf" class="profile-image" onerror="this.style.display='none'; this.parentElement.classList.add('image-fallback');" />
+          </div>
+          <div class="profile-card-body">
+            <h2>Abdulrahman Yusuf</h2>
+            <p>Ph.D. Researcher · WMU ECE</p>
+            <div class="status-pill">Open to research, internship, and engineering roles</div>
+          </div>
+          <div class="mini-metrics">
+            <div><strong>98.65%</strong><span>ECG cloud ML accuracy</span></div>
+            <div><strong>97.8%</strong><span>Edge ML accuracy</span></div>
+            <div><strong>13 ms</strong><span>Cloud inference</span></div>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="section impact-strip" id="impact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Research impact</p>
+          <h2>Quantified engineering outcomes</h2>
+          <p>Selected results from embedded AI, ECG monitoring, CHD prediction, and wearable electrode validation.</p>
+        </div>
+        <div class="metrics-grid">
+          <article class="metric-card reveal">
+            <span class="metric-value">25.2 Ω/sq</span>
+            <span class="metric-label">LIG electrode sheet resistance</span>
+          </article>
+          <article class="metric-card reveal">
+            <span class="metric-value">0.97</span>
+            <span class="metric-label">ECG similarity correlation versus Ag/AgCl</span>
+          </article>
+          <article class="metric-card reveal">
+            <span class="metric-value">20 kB</span>
+            <span class="metric-label">Approximate edge model flash footprint</span>
+          </article>
+          <article class="metric-card reveal">
+            <span class="metric-value">0.97</span>
+            <span class="metric-label">CHD risk model AUROC</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Featured portfolio</p>
+          <h2>Research and engineering projects</h2>
+          <p>Recruiter-friendly project cards highlighting problem, technical contribution, tools, and measurable outcome.</p>
+        </div>
+
+        <div class="filter-tabs reveal" role="tablist" aria-label="Project filters">
+          <button class="filter active" data-filter="all" type="button">All</button>
+          <button class="filter" data-filter="health-ai" type="button">Health AI</button>
+          <button class="filter" data-filter="embedded" type="button">Embedded</button>
+          <button class="filter" data-filter="robotics" type="button">Robotics</button>
+          <button class="filter" data-filter="data-science" type="button">Data Science</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="health-ai embedded data-science">
+            <div class="project-topline"><span>Biomedical AI</span><span>Wearable ECG</span></div>
+            <h3>Flexible LIG–PDMS Dry ECG Electrodes with Edge AI</h3>
+            <p>
+              Developed a wearable cardiac monitoring framework integrating laser-induced graphene dry electrodes, embedded feature extraction, edge classification, BLE feedback, and secure cloud inference.
+            </p>
+            <ul>
+              <li>Validated LIG electrodes against wet Ag/AgCl during treadmill motion.</li>
+              <li>Implemented Random Forest inference on STM32-class edge hardware.</li>
+              <li>Built privacy-aware mobile feedback with real-time heart rhythm status.</li>
+            </ul>
+            <div class="project-stack"><span>STM32</span><span>BLE</span><span>Python</span><span>Random Forest</span><span>ECG</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="health-ai data-science">
+            <div class="project-topline"><span>Clinical ML</span><span>Risk Prediction</span></div>
+            <h3>Cloud-Based AI for Ten-Year Coronary Heart Disease Risk</h3>
+            <p>
+              Built a machine-learning pipeline for non-invasive CHD risk prediction using tabular clinical features, cross-validation, SHAP-based interpretation, and secure API deployment concepts.
+            </p>
+            <ul>
+              <li>Achieved 94.63% test accuracy and 0.97 AUROC.</li>
+              <li>Used preprocessing, SMOTE, model selection, and explainability workflows.</li>
+              <li>Designed REST API deployment with TLS-secured communication.</li>
+            </ul>
+            <div class="project-stack"><span>scikit-learn</span><span>SHAP</span><span>REST API</span><span>TLS 1.3</span><span>Statistics</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="robotics embedded data-science">
+            <div class="project-topline"><span>HRI</span><span>Agentic AI</span></div>
+            <h3>Adaptive Human–Robot Interaction for Assistive Robotics</h3>
+            <p>
+              Designed intelligent HRI systems integrating multimodal physiological sensing, adaptive feedback, and shared autonomy for real-time robotic assistance and decision support.
+            </p>
+            <ul>
+              <li>Integrated EEG, ECG/HRV, GSR, respiration, and robotic feedback loops.</li>
+              <li>Mapped affective state estimates into adaptive robot behavior.</li>
+              <li>Explored agentic AI concepts for context-aware robotic assistance.</li>
+            </ul>
+            <div class="project-stack"><span>Kinova Gen3</span><span>Jetson Orin</span><span>EEG</span><span>ECG</span><span>HRI</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="robotics embedded">
+            <div class="project-topline"><span>Robotics UI</span><span>Shared Autonomy</span></div>
+            <h3>Kinova Gen3 Lite Digital Twin and Arbitration Interface</h3>
+            <p>
+              Created a professional control interface for 3D coordinate selection, workspace validation, robotic motion execution, object grasping, and autonomy arbitration.
+            </p>
+            <ul>
+              <li>Implemented live robot coordinate display and boundary-aware feedback.</li>
+              <li>Designed manual, semi-autonomous, and autonomous control modes.</li>
+              <li>Integrated voice, visual, and haptic feedback for safer interaction.</li>
+            </ul>
+            <div class="project-stack"><span>Python</span><span>Robotics API</span><span>3D UI</span><span>Shared Control</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="embedded health-ai">
+            <div class="project-topline"><span>Embedded Sensing</span><span>Mobile Feedback</span></div>
+            <h3>ESP32 Wearable Heart-Rate Estimation Pipeline</h3>
+            <p>
+              Developed a lightweight heart-rate estimation pipeline using IMU sensing, signal processing, spectral estimation, Kalman smoothing, OLED feedback, and BLE mobile notifications.
+            </p>
+            <ul>
+              <li>Used bandpass filtering, FastICA concepts, Goertzel spectral peak estimation, and Kalman filtering.</li>
+              <li>Designed user-friendly iOS display with state-based visual feedback.</li>
+              <li>Optimized for real-time embedded operation on ESP32-class hardware.</li>
+            </ul>
+            <div class="project-stack"><span>ESP32</span><span>BLE</span><span>SwiftUI</span><span>Signal Processing</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="data-science health-ai">
+            <div class="project-topline"><span>ML Validation</span><span>Biomedical Data</span></div>
+            <h3>ECG Model Selection, RFECV, and Feature Reduction</h3>
+            <p>
+              Built reproducible ECG model-selection workflows with feature engineering, correlation filtering, recursive feature elimination, cross-validation, and final independent testing.
+            </p>
+            <ul>
+              <li>Compared Random Forest, SVM, kNN, MLP, Naïve Bayes, and tree-based models.</li>
+              <li>Reduced feature cost while maintaining deployable model performance.</li>
+              <li>Reported accuracy, sensitivity, specificity, precision, F1-score, G-mean, and AUROC.</li>
+            </ul>
+            <div class="project-stack"><span>Python</span><span>RFECV</span><span>GridSearchCV</span><span>NumPy</span><span>pandas</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical depth</p>
+          <h2>Core capabilities</h2>
+          <p>Cross-disciplinary engineering across embedded systems, AI/ML, signal processing, biomedical hardware, robotics, and professional deployment workflows.</p>
+        </div>
+        <div class="skills-layout">
+          <article class="skill-panel reveal">
+            <h3>AI, ML, and Data Science</h3>
+            <p>Random Forest, SVM, MLP, CNN/LSTM concepts, RFECV, GridSearchCV, SHAP, model validation, imbalanced data handling, clinical performance metrics.</p>
+          </article>
+          <article class="skill-panel reveal">
+            <h3>Embedded and Edge AI</h3>
+            <p>STM32, ESP32, BLE, ADC acquisition, low-memory inference, real-time signal processing, OLED displays, firmware debugging, power-aware design.</p>
+          </article>
+          <article class="skill-panel reveal">
+            <h3>Biomedical Instrumentation</h3>
+            <p>ECG, EEG, HRV, GSR, respiration, OpenBCI, Equivital, ADInstruments LabChart, LIG electrodes, electrode characterization, wearable sensor validation.</p>
+          </article>
+          <article class="skill-panel reveal">
+            <h3>Robotics and HRI</h3>
+            <p>Kinova Gen3 Lite, digital twin interfaces, adaptive feedback, shared autonomy, workspace validation, user-centered control, agentic AI for robotic assistance.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline-section" id="experience">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Research, teaching, and engineering leadership</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-date">Ph.D. Research</span>
+            <h3>Electrical and Computer Engineering · Western Michigan University</h3>
+            <p>Research focus across Edge AI, wearable biomedical sensing, ECG analytics, secure cloud AI, and human–robot interaction.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-date">Graduate Teaching Assistant</span>
+            <h3>ECE Laboratories and Assessments</h3>
+            <p>Supported electronics, circuit analysis, microprocessor, and digital logic instruction, including embedded hardware assessment and BASYS3 programming support.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-date">Competition and Innovation</span>
+            <h3>AI Health and Engineering Prototypes</h3>
+            <p>Advanced research prototypes and competition submissions in biomedical AI, cloud-based prediction, and mobile health technology.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-card reveal">
+          <div>
+            <p class="eyebrow">Let’s connect</p>
+            <h2>Interested in Edge AI, biomedical sensing, or robotics roles.</h2>
+            <p>Use this section to add your preferred email, LinkedIn, GitHub, Google Scholar, and portfolio links before publishing.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:yusufabdulrahman05@gmail.com">Email Me</a>
+            <button class="button secondary" type="button" id="copyEmail" data-email="yusufabdulrahman05@gmail.com">Copy Email</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Abdulrahman Yusuf. Built for research, engineering, and recruiter review.</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
